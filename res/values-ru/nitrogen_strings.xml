@@ -168,4 +168,6 @@
     <string name="expanded_desktop_title">Настройки расширенного экрана</string>
     <string name="expanded_user_configurable">Настраивается пользователем</string>
     <string name="expanded_desktop_state">Расширенное состояние</string>
+
+    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
 </resources>
