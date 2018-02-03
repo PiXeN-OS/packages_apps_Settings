@@ -6,4 +6,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
 
+    <!-- Pixel color on sim card -->
+    <string name="pixel_sim_color">Pixel</string>
+
 </resources>
