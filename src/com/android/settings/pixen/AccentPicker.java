@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.arrow;
+package com.android.settings.pixen;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -410,7 +410,7 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
     private boolean isUsingDarkTheme() {
         OverlayInfo themeInfo = null;
         try {
-            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.dark",
+            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.dark.pixen",
                     UserHandle.USER_CURRENT);
         } catch (RemoteException e) {
             e.printStackTrace();
@@ -422,7 +422,7 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
     private boolean isUsingBlackTheme() {
         OverlayInfo themeInfo = null;
         try {
-            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.black",
+            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.black.pixen",
                     UserHandle.USER_CURRENT);
         } catch (RemoteException e) {
             e.printStackTrace();
@@ -455,6 +455,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ARROW;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 }
