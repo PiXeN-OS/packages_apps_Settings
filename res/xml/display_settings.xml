@@ -154,6 +154,13 @@
         android:entryValues="@array/systemui_theme_style_values"
         android:persistent="false" />
 
+   <ListPreference
+        android:key="systemui_theme"
+        android:title="@string/launcher_theme_title"
+        android:entries="@array/systemui_theme_entries"
+        android:entryValues="@array/systemui_theme_values"
+        settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
+
         <Preference
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
